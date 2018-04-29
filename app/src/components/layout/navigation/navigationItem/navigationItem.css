@@ -1,0 +1,15 @@
+.navigationItem {
+  border: 1px solid rgba(211, 211, 211, .2);
+  padding: 15px;
+  transform: translateX(50%);
+  transition: transform .3s;
+  width: 150px;
+}
+
+.navigationItem:hover {
+  transform: translateX(5px);
+}
+
+.active {
+  color: #c2457d;
+}

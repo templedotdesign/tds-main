@@ -1,0 +1,39 @@
+.about {
+  height: 1500px;
+}
+.spacer {
+  height: calc(100vh - 600px);
+}
+
+.about section {
+  width: 500px;
+  height: 600px;
+  border-radius: 5px;
+  margin: 100px auto;
+  background-image: url('../../assets/pink-bubbles.png');
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.about section h1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about section p {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+@media(max-width: 499px) {
+  .section {
+    width: 100vw;
+  }
+}

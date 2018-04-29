@@ -1,0 +1,52 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.show {
+  opacity: 1;
+}
+
+.top_left {
+  border-radius: 5px 0 0 0;
+}
+
+.top_right {
+  border-radius: 0 5px 0 0;
+}
+
+.bottom_right {
+  border-radius: 0 0 5px 0;
+}
+
+.bottom_left {
+  border-radius:
+  0 0 0 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vw; 
+  font-size: 4rem;
+  transition: font-size .3s;
+}
+
+.block:hover {
+  font-size: 7rem;
+  color: #c2457d;
+}
